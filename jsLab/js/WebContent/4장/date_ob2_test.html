@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>날짜 정보 객체</title>
+<script type="text/javascript">
+	//<![CDATA[
+	var t=new Date();//오늘 날짜 객체
+	var nowYear=t.getFullYear; 
+	
+	var theDate=new Date("2021/8/23");
+	
+	var diffDate=theDate-t;
+	
+	var result=Math.ceil(diffDate/(60*60*24*1000));
+	
+	//남은 일수를 출력합니다.
+	document.write("현재일로 부터 수료일까진 " + result + "일 남았습니다.");
+	//]]>
+</script>
+</head>
+<body>
+
+</body>
+</html>
