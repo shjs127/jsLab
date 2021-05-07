@@ -18,11 +18,13 @@ window.onload=function(){
   //②, ④은 DOM을 이용해 이벤트를 등록하였습니다.
   
   //② [버튼2]를 클릭할 때 마다 colorBg함수를 호출합니다. 
-
+	var btn2=document.getElementById("btn2");
+  btn2.onclick=function(){colorBg();}
   
  
   //④ [버튼4]에 마우스를 올릴 때 마다 colorBg함수를 호출합니다.
-
+var btn4=document.getElementById("btn4");
+  btn4.onmouseover=function(){colorBg();}
   
 }
 //]]>
