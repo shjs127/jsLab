@@ -24,15 +24,70 @@
 
 		$("form").submit(function() {
 			var tel1_pattern = /(^01[016789]$)/; //정규식
-
+			var tel2_pattern=/^\d{3,4}$/;
+			var tel3_pattern=/^\d{4}$/;
+			var email_pattern=/^[a-zA-Z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
 			if ($("#id").val() == "") {
 				alert("아이디를 꼭 입력하세요!");
 				$("#id").focus();
 				return false;
 			}
+			if ($("#pwd").val() == "") {
+				alert("비밀번호를 꼭 입력하세요!");
+				$("#pwd").focus();
+				return false;
+			}
+			if ($("#pwd").val() != $("#pwd2").val()) {
+				alert("비밀번호를  확인하세요!");
+				$("#pwd2").focus();
+				return false;
+			}
+			if ($("#name").val() == "") {
+				alert("이름을 꼭 입력하세요!");
+				$("#name").focus();
+				return false;
+			}
+			if (!tel1_pattern.test($("#tel1").val())){
+				alert("전화번호 앞 자리를 다시 확인하세요");
+				$("#tel1").focus();
+				return false
+			}
+			if (!tel2_pattern.test($("#tel2").val())){
+				alert("전화번호 가운데 자리를 다시 확인하세요");
+				$("#tel2").focus();
+				return false
+			}
+			if (!tel3_pattern.test($("#tel3").val())){
+				alert("전화번호 마지막 자리를 다시 확인하세요");
+				$("#tel3").focus();
+				return false
+			}
+			if ($("#addr").val() == "") {
+				alert("주소를 꼭 입력하세요!");
+				$("#addr").focus();
+				return false;
+			}
+			if ($("#job").val() == "") {
+				alert("직업을 꼭 입력하세요!");
+				$("#job").focus();
+				return false;
+			}
 			
-			
-			
+			if (!($("#man").is(":checked")||$("#woman").is(":checked"))) {
+				alert("성별을 꼭 입력하세요!");
+				$("#man").focus();
+				return false;
+			}
+			if (!email_pattern.test($("#email").val())) {
+				alert("이메일을 형식에 맞게 입력하세요!");
+				$("#email").focus();
+				return false;
+			}
+			if ($("#intro").val() == "") {
+				alert("자기소개를 꼭 입력하세요!");
+				$("#intro").focus();
+				return false;
+			}
 			
 			
 			
