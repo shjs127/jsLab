@@ -9,7 +9,7 @@
 $(function(){
   $("#btn1").on("click",function(){//"Hide"버튼을 클릭했을 때
     //1초 동안에 <h1>을 숨기고, 콜백함수 실행합니다.
-    $("h1").hide(1000,function(){ alert("숨김 완료!") }); 
+    $("h1").hide(1000);
   });
   $("#btn2").on("click",function(){//"Show"버튼을 클릭했을 때
     //1초 동안에 <h1>을 노출리키고, 콜백함수 실행합니다.
