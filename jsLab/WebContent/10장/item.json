@@ -1,38 +1,38 @@
-ï»¿[
+[
   {
     "id": "1",
-    "name": "ë ˆëª¬",
+    "name": "·¹¸ó",
     "price": " 3000",
-    "description": "ë ˆëª¬ì— í¬í•¨ë˜ì–´ ìžˆëŠ” ì¿ ì—”ì‚°ì€ í”¼ë¡œíšŒë³µì— ì¢‹ë‹¤. ë¹„íƒ€ë¯¼Cë„ í’ë¶€í•˜ë‹¤."
+    "description": "·¹¸ó¿¡ Æ÷ÇÔµÇ¾î ÀÖ´Â Äí¿£»êÀº ÇÇ·ÎÈ¸º¹¿¡ ÁÁ´Ù. ºñÅ¸¹ÎCµµ Ç³ºÎÇÏ´Ù."
   },
   {
     "id": "2",
-    "name": "í‚¤ìœ„",
+    "name": "Å°À§",
     "price": " 2000",
-    "description": "ë¹„íƒ€ë¯¼Cê°€ ë§¤ìš° í’ë¶€í•˜ë‹¤. ë‹¤ì´ì—íŠ¸ì™€ ë¯¸ìš©ì—ë„ ë§¤ìš° ì¢‹ë‹¤."
+    "description": "ºñÅ¸¹ÎC°¡ ¸Å¿ì Ç³ºÎÇÏ´Ù. ´ÙÀÌ¿¡Æ®¿Í ¹Ì¿ë¿¡µµ ¸Å¿ì ÁÁ´Ù."
   },
   {
     "id": "3",
-    "name": "ë¸”ë£¨ë² ë¦¬",
+    "name": "ºí·çº£¸®",
     "price": " 5000",
-    "description": "ë¸”ë£¨ë² ë¦¬ì— í¬í•¨ëœ anthocyanin(ì•ˆí† ì‹œì•„ë‹Œ)ì€ ëˆˆí”¼ë¡œì— íš¨ê³¼ê°€ ìžˆë‹¤."
+    "description": "ºí·çº£¸®¿¡ Æ÷ÇÔµÈ anthocyanin(¾ÈÅä½Ã¾Æ´Ñ)Àº ´«ÇÇ·Î¿¡ È¿°ú°¡ ÀÖ´Ù."
   },
   {
     "id": "4",
-    "name": "ì²´ë¦¬",
+    "name": "Ã¼¸®",
     "price": " 5000",
-    "description": "ì²´ë¦¬ëŠ” ë§›ì´ ë‹¨ ì„±ë¶„ì´ ë§Žê³  í”¼ë¡œíšŒë³µì— ìž˜ ë“£ëŠ”ë‹¤."
+    "description": "Ã¼¸®´Â ¸ÀÀÌ ´Ü ¼ººÐÀÌ ¸¹°í ÇÇ·ÎÈ¸º¹¿¡ Àß µè´Â´Ù."
   },
   {
     "id": "5",
-    "name": "ë©”ë¡ ",
+    "name": "¸Þ·Ð",
     "price": " 5000",
-    "description": "ë©”ë¡ ì—ëŠ” ë¹„íƒ€ë¯¼Aì™€ ì¹¼ë¥¨ì´ ë§Žì´ í¬í•¨ë˜ì–´ ìžˆë‹¤."
+    "description": "¸Þ·Ð¿¡´Â ºñÅ¸¹ÎA¿Í Ä®·ýÀÌ ¸¹ÀÌ Æ÷ÇÔµÇ¾î ÀÖ´Ù."
   },
   {
     "id": "6",
-    "name": "ìˆ˜ë°•",
+    "name": "¼ö¹Ú",
     "price": "15000",
-    "description": "ìˆ˜ë¶„ì´ í’ë¶€í•œ ê³¼ì¼ì´ë‹¤."
+    "description": "¼öºÐÀÌ Ç³ºÎÇÑ °úÀÏÀÌ´Ù."
   } 
 ]
